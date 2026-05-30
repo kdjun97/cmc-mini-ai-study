@@ -1,6 +1,6 @@
 import SwiftUI
 
-enum CMCContentTab: String, CaseIterable {
+nonisolated enum CMCContentTab: String, CaseIterable, Hashable, Sendable {
     case wishlist  = "위시리스트"
     case calendar  = "캘린더"
     case rating    = "평점"
@@ -9,18 +9,9 @@ enum CMCContentTab: String, CaseIterable {
 }
 
 struct CMCScrollTabView: View {
-    @State private var selectedTab: CMCContentTab = .wishlist
+    @Binding var selectedTab: CMCContentTab
 
     var body: some View {
-        VStack(spacing: 0) {
-            tabBar
-            tabContent
-        }
-    }
-
-    // MARK: - Tab Bar
-
-    private var tabBar: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 0) {
                 ForEach(CMCContentTab.allCases, id: \.self) { tab in
@@ -50,28 +41,8 @@ struct CMCScrollTabView: View {
         }
         .buttonStyle(.plain)
     }
-
-    // MARK: - Tab Content
-
-    @ViewBuilder
-    private var tabContent: some View {
-        Divider()
-            .background(Color.CMC.separator)
-
-        switch selectedTab {
-        case .calendar:
-            CMCCalendarView()
-        default:
-            Text(selectedTab.rawValue)
-                .font(Font.CMC.body)
-                .foregroundStyle(Color.CMC.textSecondary)
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-        }
-    }
 }
 
 #Preview {
-    VStack(spacing: 0) {
-        CMCScrollTabView()
-    }
+    CMCScrollTabView(selectedTab: .constant(.calendar))
 }
