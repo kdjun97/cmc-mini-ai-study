@@ -1,6 +1,6 @@
 import SwiftUI
 
-enum CMCTab {
+nonisolated enum CMCTab: Equatable, Sendable {
     case social
     case search
     case mySpace
