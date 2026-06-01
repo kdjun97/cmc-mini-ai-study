@@ -1,0 +1,256 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1780118063696,
+  "projectRoot": "/Users/jumy/Documents/jumy/ai_project/cmc-hackerton",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "cmc-mini-ai-study": {
+      "path": "cmc-mini-ai-study",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1780118063679,
+      "keyFiles": []
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "cmc-mini-ai-study/CMC-Mini/CMC-Mini/DesignSystem/Components/Navigation/CMCTabBar.swift",
+      "accessCount": 16,
+      "lastAccessed": 1780126061300,
+      "type": "file"
+    },
+    {
+      "path": "cmc-mini-ai-study/CMC-Mini/CMC-Mini/ContentView.swift",
+      "accessCount": 11,
+      "lastAccessed": 1780120845364,
+      "type": "file"
+    },
+    {
+      "path": "cmc-mini-ai-study/CMC-Mini/CMC-Mini/DesignSystem/Components/Content/CMCCalendarView.swift",
+      "accessCount": 10,
+      "lastAccessed": 1780126060821,
+      "type": "file"
+    },
+    {
+      "path": "report/designsystem/phase0-2-summary.md",
+      "accessCount": 9,
+      "lastAccessed": 1780126095096,
+      "type": "file"
+    },
+    {
+      "path": "cmc-mini-ai-study/CMC-Mini/CMC-Mini.xcodeproj/project.pbxproj",
+      "accessCount": 8,
+      "lastAccessed": 1780120835591,
+      "type": "file"
+    },
+    {
+      "path": "cmc-mini-ai-study/CMC-Mini/CMC-Mini/DesignSystem/Components/Content/CMCScrollTabView.swift",
+      "accessCount": 8,
+      "lastAccessed": 1780126078528,
+      "type": "file"
+    },
+    {
+      "path": "cmc-mini-ai-study/CMC-Mini/CMC-Mini/App/RootView.swift",
+      "accessCount": 6,
+      "lastAccessed": 1780126060405,
+      "type": "file"
+    },
+    {
+      "path": "cmc-mini-ai-study/CMC-Mini/CMC-Mini/Features/MySpace/MySpaceView.swift",
+      "accessCount": 6,
+      "lastAccessed": 1780126067638,
+      "type": "file"
+    },
+    {
+      "path": "cmc-mini-ai-study/CMC-Mini/CMC-Mini/Features/MySpace/MySpaceFeature.swift",
+      "accessCount": 6,
+      "lastAccessed": 1780126078236,
+      "type": "file"
+    },
+    {
+      "path": "cmc-mini-ai-study/CMC-Mini/CMC-Mini/DesignSystem/Foundation/CMCTypography.swift",
+      "accessCount": 6,
+      "lastAccessed": 1780126088742,
+      "type": "file"
+    },
+    {
+      "path": "cmc-mini-ai-study/CMC-Mini/CMC-Mini/DesignSystem/Components/Content/CalendarDayCell.swift",
+      "accessCount": 5,
+      "lastAccessed": 1780126074262,
+      "type": "file"
+    },
+    {
+      "path": "cmc-mini-ai-study/CMC-Mini/CMC-Mini/DesignSystem/Foundation/CMCColor.swift",
+      "accessCount": 5,
+      "lastAccessed": 1780126082026,
+      "type": "file"
+    },
+    {
+      "path": "cmc-mini-ai-study/CMC-Mini/CMC-Mini/Model/ContentItem.swift",
+      "accessCount": 4,
+      "lastAccessed": 1780126070268,
+      "type": "file"
+    },
+    {
+      "path": "cmc-mini-ai-study/CMC-Mini/CMC-Mini/DesignSystem/Components/Navigation/CMCNavigationBar.swift",
+      "accessCount": 4,
+      "lastAccessed": 1780126073328,
+      "type": "file"
+    },
+    {
+      "path": "cmc-mini-ai-study/CMC-Mini/CMC-Mini/DesignSystem/Foundation/CMCSpacing.swift",
+      "accessCount": 4,
+      "lastAccessed": 1780126091568,
+      "type": "file"
+    },
+    {
+      "path": "cmc-mini-ai-study/CMC-Mini/CMC-Mini/CMC_MiniApp.swift",
+      "accessCount": 3,
+      "lastAccessed": 1780120840879,
+      "type": "file"
+    },
+    {
+      "path": "cmc-mini-ai-study/CMC-Mini/CMC-Mini/Features/Social/SocialFeature.swift",
+      "accessCount": 3,
+      "lastAccessed": 1780121592935,
+      "type": "file"
+    },
+    {
+      "path": "cmc-mini-ai-study/CMC-Mini/CMC-Mini/Features/Search/SearchFeature.swift",
+      "accessCount": 3,
+      "lastAccessed": 1780121593984,
+      "type": "file"
+    },
+    {
+      "path": "cmc-mini-ai-study/CMC-Mini/CMC-Mini/Features/Profile/ProfileFeature.swift",
+      "accessCount": 3,
+      "lastAccessed": 1780121595803,
+      "type": "file"
+    },
+    {
+      "path": ".claude/CLAUDE.md",
+      "accessCount": 2,
+      "lastAccessed": 1780119034713,
+      "type": "file"
+    },
+    {
+      "path": "cmc-mini-ai-study/CMC-Mini/CMC-Mini/App/AppFeature.swift",
+      "accessCount": 2,
+      "lastAccessed": 1780121358901,
+      "type": "file"
+    },
+    {
+      "path": "cmc-mini-ai-study/CMC-Mini/CMC-Mini/Features/Social/SocialView.swift",
+      "accessCount": 2,
+      "lastAccessed": 1780121365439,
+      "type": "file"
+    },
+    {
+      "path": "cmc-mini-ai-study/CMC-Mini/CMC-Mini/Features/Search/SearchView.swift",
+      "accessCount": 2,
+      "lastAccessed": 1780121368174,
+      "type": "file"
+    },
+    {
+      "path": "cmc-mini-ai-study/CMC-Mini/CMC-Mini/Features/Profile/ProfileView.swift",
+      "accessCount": 2,
+      "lastAccessed": 1780121375557,
+      "type": "file"
+    },
+    {
+      "path": "cmc-mini-ai-study/CMC-Mini/CMC-Mini/Features/MySpace/Calendar/MySpaceCalendarView.swift",
+      "accessCount": 2,
+      "lastAccessed": 1780126070498,
+      "type": "file"
+    },
+    {
+      "path": "cmc-mini-ai-study/CMC-Mini/CMC-Mini/App/RootFeature.swift",
+      "accessCount": 2,
+      "lastAccessed": 1780126077815,
+      "type": "file"
+    },
+    {
+      "path": "cmc-mini-ai-study/CMC-Mini/CMC-Mini/DesignSystem/Components/Content/CalendarHeaderView.swift",
+      "accessCount": 2,
+      "lastAccessed": 1780126085371,
+      "type": "file"
+    },
+    {
+      "path": "cmc-mini-ai-study/CMC-Mini/CMC-Mini/Features/MySpace/Calendar/MySpaceCalendarFeature.swift",
+      "accessCount": 2,
+      "lastAccessed": 1780126088333,
+      "type": "file"
+    },
+    {
+      "path": "cmc-mini-ai-study/CMC-Mini/CMC-Mini/App/CMC_MiniApp.swift",
+      "accessCount": 2,
+      "lastAccessed": 1780126092019,
+      "type": "file"
+    },
+    {
+      "path": "report/designsystem/phase3-4-calendar-summary.md",
+      "accessCount": 2,
+      "lastAccessed": 1780126095141,
+      "type": "file"
+    },
+    {
+      "path": "cmc-mini-ai-study/CMC-Mini/CMC-Mini/DesignSystem/Components/Controls/CMCFilterChip.swift",
+      "accessCount": 1,
+      "lastAccessed": 1780123778047,
+      "type": "file"
+    },
+    {
+      "path": "cmc-mini-ai-study/CMC-Mini/CMC-Mini/Features/MySpace/Gallery/MySpaceGalleryView.swift",
+      "accessCount": 1,
+      "lastAccessed": 1780126070075,
+      "type": "file"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "accessCount": 1,
+      "lastAccessed": 1780126074209,
+      "type": "file"
+    },
+    {
+      "path": "cmc-mini-ai-study/CMC-Mini/CMC-Mini/Features/MySpace/Gallery/MySpaceGalleryFeature.swift",
+      "accessCount": 1,
+      "lastAccessed": 1780126088226,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
